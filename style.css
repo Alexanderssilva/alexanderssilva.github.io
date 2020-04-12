@@ -48,21 +48,21 @@ ul#lista li:hover span
 
 ul#lista li#html
 {
-	background: url("_imgs/logos/htmlL5.png") no-repeat;
+	background: url("imgs/logos/html5.png") no-repeat;
 	background-size:200px 200px;
 	background-position:50% 50%;
 	
 }
 ul#lista li#css
 {
-	background: url("_imgs/logos/css3.png")no-repeat;
+	background: url("imgs/logos/css3.png")no-repeat;
 	background-size:200px 200px;
 	background-position:50% 50%;
 	
 }
 ul#lista li#js
 {
-	background: url("_imgs/logos/js.png")no-repeat;
+	background: url("imgs/logos/js.png")no-repeat;
 	background-size:200px 200px;
 	background-position:50% 50%;
 	
@@ -95,14 +95,14 @@ ul#trabalhos li
 }
 ul#trabalhos li#t1
 {
-	background:url("_imgs/logos/js.png") no-repeat;
+	background:url("imgs/logos/js.png") no-repeat;
 	background-size:380px 380px;
 	background-position:50% 50%;
 	margin:auto;
 }
 ul#trabalhos li#t2
 {
-	background:url("_imgs/logos/js.png") no-repeat;
+	background:url("imgs/logos/js.png") no-repeat;
 	background-size:380px 380px;
 	background-position:50% 50%;
 	margin:auto;
