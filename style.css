@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
 body
 {
-	width:900px;
+	display:block;
+	width:100%;
 	background-color:#ffffff;
 	margin:auto;
 	padding: 10px;
@@ -55,14 +57,14 @@ ul#lista li#html
 }
 ul#lista li#css
 {
-	background: url("imgs/logos/css3.png")no-repeat;
+	background: url("imgs/logos/css3.png") no-repeat;
 	background-size:200px 200px;
 	background-position:50% 50%;
 	
 }
 ul#lista li#js
 {
-	background: url("imgs/logos/js.png")no-repeat;
+	background: url("imgs/logos/js.png") no-repeat;
 	background-size:200px 200px;
 	background-position:50% 50%;
 	
@@ -73,14 +75,13 @@ ul#lista li#js
 p{
 	text-align: center;
 	font-size: 30pt;
-	padding-top:100px;
+	
 }
 ul#trabalhos
 {
 	display:block;
-	width:900px;
+	width:90%;
 	margin: auto;
-	padding:50px;
 	list-style:none;
 	overflow: hidden;
 	
@@ -91,21 +92,22 @@ ul#trabalhos li
 	width:400px;
 	height:400px;
 	margin:10px;
-	padding-top:50px;
+	
+	
 }
 ul#trabalhos li#t1
 {
 	background:url("imgs/logos/js.png") no-repeat;
-	background-size:380px 380px;
+	background-size:400px 400px;
 	background-position:50% 50%;
 	margin:auto;
 }
 ul#trabalhos li#t2
 {
 	background:url("imgs/logos/js.png") no-repeat;
-	background-size:380px 380px;
+	background-size:400px 400px;
 	background-position:50% 50%;
-	margin:auto;
+	margin-left:50px;
 }
 
 

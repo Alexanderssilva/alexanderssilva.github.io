@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+ul
+{
+	width:400px;
+	height:400px;
+	background-color:blue;
+	list-style:none;
+	padding-top:40px;
+	
+}
+
+li
+{
+	height:120px;
+	width:120px;
+	float:left;
+	border: 1px solid black;
+	
+}
+
+img
+{
+	margin-left:25px;
+	margin-top:25px;
+	
+	
+}
