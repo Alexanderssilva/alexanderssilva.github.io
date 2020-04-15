@@ -80,8 +80,8 @@ p{
 ul#trabalhos
 {
 	display:block;
-	width:90%;
-	margin: auto;
+	width:100%;
+
 	list-style:none;
 	overflow: hidden;
 	
@@ -90,23 +90,27 @@ ul#trabalhos li
 {
 	float:left;	
 	width:400px;
-	height:400px;
+	height:600px;
 	margin:10px;
 	
 	
 }
+iframe#frame-spec
+{
+	flex:1;
+	width:550px;
+	height:600px;
+	border:none;
+	overflow: hidden;
+}
 ul#trabalhos li#t1
 {
-	background:url("imgs/logos/js.png") no-repeat;
-	background-size:400px 400px;
-	background-position:50% 50%;
 	margin:auto;
 }
 ul#trabalhos li#t2
 {
-	background:url("imgs/logos/js.png") no-repeat;
-	background-size:400px 400px;
-	background-position:50% 50%;
+	
+	margin:auto;
 	margin-left:50px;
 }
 
