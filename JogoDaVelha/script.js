@@ -51,7 +51,8 @@ function Casa(cs) {
 
 }
 
-function VerifyGame() { //verticais
+function VerifyGame() { 
+		//verticais
     if (x.includes("cs1") && x.includes("cs4") && x.includes("cs7") ||
         x.includes("cs2") && x.includes("cs5") && x.includes("cs8") ||
         x.includes("cs3") && x.includes("cs6") && x.includes("cs9") ||
@@ -64,7 +65,8 @@ function VerifyGame() { //verticais
         x.includes("cs7") && x.includes("cs5") && x.includes("cs3")) {
         alert("x ganhou");
         Resete();
-    } else if (//verticais
+    } else if (
+		//verticais
         o.includes("cs1") && o.includes("cs4") && o.includes("cs7") ||
         o.includes("cs2") && o.includes("cs5") && o.includes("cs8") ||
         o.includes("cs3") && o.includes("cs6") && o.includes("cs9") ||
