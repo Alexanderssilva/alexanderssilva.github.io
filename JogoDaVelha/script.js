@@ -88,6 +88,7 @@ function VerifyGame() { //verticais
 function Resete() {
     o = [];
     x = [];
+	tab= [];
     for (i = 1; i <= 9; i++) {
         console.log("cs" + i);
         document.getElementById("cs" + i).src = "";
